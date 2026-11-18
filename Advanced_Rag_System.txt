@@ -1,0 +1,74 @@
+Advanced_Rag_System/
+│
+├── app/
+│   ├── main.py
+│   │
+│   ├── api/
+│   │   ├── upload.py
+│   │   ├── retrieval.py
+│   │   ├── evaluation.py
+│   │   └── agents.py
+│   │
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── embeddings.py
+│   │   └── llm.py
+│   │
+│   ├── database/
+│   │   ├── connection.py
+│   │   ├── vector_store.py
+│   │   └── cache.py
+│   │
+│   ├── ingestion/
+│   │   ├── loaders.py
+│   │   ├── chunking.py
+│   │   ├── indexing.py
+│   │   └── deduplication.py
+│   │
+│   ├── retrieval/
+│   │   ├── semantic_search.py
+│   │   ├── keyword_search.py
+│   │   ├── hybrid_search.py
+│   │   ├── rrf.py
+│   │   ├── reranker.py
+│   │   ├── multi_query.py
+│   │   ├── hyde.py
+│   │   ├── parent_child.py
+│   │   ├── compression.py
+│   │   ├── query_router.py
+│   │   └── acl.py
+│   │
+│   ├── evaluation/
+│   │   ├── dataset.py
+│   │   ├── metrics.py
+│   │   └── evaluate.py
+│   │
+│   ├── agents/
+│   │   ├── tools.py
+│   │   ├── memory.py
+│   │   └── sql_agent.py
+│   │
+│   ├── graphs/
+│   │   ├── state.py
+│   │   ├── nodes.py
+│   │   ├── edges.py
+│   │   └── rag_graph.py
+│   │
+│   ├── multi_agent/
+│   │   ├── supervisor.py
+│   │   ├── researcher.py
+│   │   ├── analyst.py
+│   │   └── writer.py
+│   │
+│   └── mcp_server/
+│       └── server.py
+│
+├── data/
+│   ├── uploads/
+│   └── evaluation/
+│
+├── tests/
+├── scripts/
+├── .env
+├── .env.example
+└── requirements.txt

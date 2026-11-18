@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# Uploaded documents and generated data
+uploads/
+*.pdf
+*.db
+*.sqlite3
+pgdata/
+postgres_data/
+
+# Python build files
+build/
+dist/
+*.egg-info/
